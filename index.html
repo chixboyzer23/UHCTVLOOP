@@ -70,6 +70,12 @@
         .slide-show-container .prev:hover, .slide-show-container .next:hover {
             background-color: rgba(0, 0, 0, 0.8);
         }
+
+        /* Styling for the brand name */
+        .brand-name {
+            color: green;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -79,7 +85,7 @@
             <p class="subtitle">Your Ultimate Online TV Experience</p>
             <div class="button-container">
                 <a href="#learn-more" class="cta-button">Learn More</a>
-                <a href="UHC2.mp4" class="cta-button" id="play-video-btn">Play Video</a>
+                <a href="#" class="cta-button" id="play-video-btn">Play Video</a>
                 <a href="#" class="cta-button" id="play-photo-slide-btn">Play Photo Slide</a>
             </div>
         </div>
@@ -88,8 +94,8 @@
     <!-- Video container -->
     <div class="video-container" id="video-container">
         <button class="close-button" id="close-video-btn">&times;</button>
-        <video controls>
-            <source src="your-video-file.mp4" type="video/mp4"> <!-- Replace with your video file -->
+        <video controls loop>
+            <source src="UHC2.mp4" type="video/mp4"> <!-- Replace with your video file -->
             Your browser does not support the video tag.
         </video>
     </div>
